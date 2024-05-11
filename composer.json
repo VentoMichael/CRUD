@@ -1,13 +1,13 @@
 {
-    "name": "VentoMichael/crud",
+    "name": "vento-michael/crud",
     "description": "A Laravel package designed to streamline the creation of CRUD operations for applications.",
     "homepage": "https://github.com/vento-michael/crud",
     "keywords": ["laravel", "flutter", "crud", "controller", "backend"],
     "type": "library",
     "authors": [
         {
-            "name": "Vento Michael",
-            "email": "support@ventomichael.com"
+            "name": "vento-michael",
+            "email": "vento.michael0705@hotmail.com"
         }
     ],
     "minimum-stability": "stable",
