@@ -1,8 +1,8 @@
 {
-    "name": "vento-michael/crud",
+    "name": "ventomichael/crud",
     "description": "A Laravel package designed to streamline the creation of CRUD operations for applications.",
     "homepage": "https://github.com/vento-michael/crud",
-    "keywords": ["laravel", "flutter", "crud", "controller", "backend"],
+    "keywords": ["laravel", "laravel-crud", "crud-generator", "controller", "backend"],
     "type": "library",
     "authors": [
         {
@@ -20,5 +20,8 @@
         "psr-4": {
             "VentoMichael\\Crud\\": "src/"
         }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^dev"
     }
 }
