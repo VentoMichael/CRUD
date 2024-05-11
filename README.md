@@ -1,17 +1,17 @@
 [![Vento Michael Logo](https://www.ventomichael.com/logo_full.jpg)](https://www.ventomichael.com)
-# vento-michael/crud
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/vento-michael/crud.svg?style=flat-square)](https://packagist.org/packages/vento-michael/crud)
-[![Total Downloads](https://img.shields.io/packagist/dt/vento-michael/crud.svg?style=flat-square)](https://packagist.org/packages/vento-michael/crud)
+# VentoMichael/crud
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/VentoMichael/crud.svg?style=flat-square)](https://packagist.org/packages/VentoMichael/crud)
+[![Total Downloads](https://img.shields.io/packagist/dt/VentoMichael/crud.svg?style=flat-square)](https://packagist.org/packages/VentoMichael/crud)
 
 A [Laravel](https://laravel.com/) package designed to streamline the creation of CRUD operations in a Flutter application backend.
 
 ## Documentation
 
-For detailed installation and usage instructions, please refer to the [documentation wiki](https://github.com/vento-michael/crud/wiki).
+For detailed installation and usage instructions, please refer to the [documentation wiki](https://github.com/VentoMichael/crud/wiki).
 
 ### Installation
 ```bash
-composer require vento-michael/crud
+composer require VentoMichael/crud
 ```
 
 
