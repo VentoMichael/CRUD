@@ -44,5 +44,29 @@ class CreateCrudCommand extends Command
 
         $this->call('make:controller', ['--name' => $controllerName]);
 
+        $controllerContent = file_get_contents($controllerPath);
+
+        $methods = [
+            'index' => "public function index()
+        {
+            // Implement logic to retrieve all {$modelName} records
+            \${$modelName}s = {$modelName}::all();
+            return view('{$modelName}s.index', compact('{$modelName}s'));
+        }",
+            'show' => "public function show({$modelName} \${$modelName})
+        {
+            // Implement logic to retrieve a specific {$modelName} record
+            return view('{$modelName}s.show', compact('{$modelName}'));
+        }",
+        ];
+
+        $controllerContent = str_replace(
+            '//',
+            implode("\n\n", $methods),
+            $controllerContent
+        );
+
+        file_put_contents($controllerPath, $controllerContent);
     }
+
 }

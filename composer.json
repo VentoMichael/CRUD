@@ -1,7 +1,7 @@
 {
     "name": "ventomichael/crud",
     "description": "A Laravel package designed to streamline the creation of CRUD operations for applications.",
-    "homepage": "https://github.com/vento-michael/crud",
+    "homepage": "https://github.com/VentoMichael/CRUD",
     "keywords": ["laravel", "laravel-crud", "crud-generator", "controller", "backend"],
     "type": "library",
     "authors": [
@@ -13,6 +13,7 @@
     "minimum-stability": "stable",
     "require": {
         "php": "^8.1",
+        "ventomichael/crud": "dev-master",
         "laravel/framework": "^9.0|^10.0"
     },
     "license": ["MIT"],

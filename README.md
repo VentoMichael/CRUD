@@ -7,7 +7,7 @@ A [Laravel](https://laravel.com/) package designed to streamline the creation of
 
 ## Documentation
 
-For detailed installation and usage instructions, please refer to the [documentation wiki](https://github.com/VentoMichael/crud/wiki).
+For detailed installation and usage instructions, please refer to the [documentation wiki](https://github.com/VentoMichael/CRUD/wiki).
 
 ### Installation
 ```bash
