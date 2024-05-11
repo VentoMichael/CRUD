@@ -20,8 +20,5 @@
         "psr-4": {
             "VentoMichael\\Crud\\": "src/"
         }
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^dev"
     }
 }
