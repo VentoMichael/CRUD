@@ -11,7 +11,7 @@ For detailed installation and usage instructions, please refer to the [documenta
 
 ### Installation
 ```bash
-composer require VentoMichael/crud
+composer require ventomichael/crud:dev-main
 ```
 
 
